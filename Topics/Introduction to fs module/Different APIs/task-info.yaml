@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: We can use synchronous and asynchronous operations when using the fs module.
+  - text: Asynchronous read functions allow us not to wait for the file to be read in
+      order to execute the subsequent code.
+  - text: Synchronous read operations allow subsequent synchronous code to be executed
+      immediately without waiting for the file to be read.
+  - text: Synchronous read operations limit subsequent code execution if a large file
+      needs to be read.
+files:
+  - name: main.js
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/25759#comment
+status: Solved
+record: -1
+local_check: false

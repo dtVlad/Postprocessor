@@ -1,0 +1,23 @@
+type: matching
+captions:
+  - <code>fs.readFileSync(...)</code>
+  - <code>fs.readFile(...)</code>
+  - <code>fs.readFile(..)</code>
+options:
+  - Has only one required argument
+  - It is required to use a callback argument.
+  - Has two required arguments
+files:
+  - name: main.js
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/25761#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2

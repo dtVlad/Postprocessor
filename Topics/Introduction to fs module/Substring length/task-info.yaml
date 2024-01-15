@@ -1,0 +1,18 @@
+type: code
+files:
+  - name: main.js
+    visible: true
+    text: |-
+      const fs = require('fs'); //do not change this line
+      
+      const dataAsync = fs.readFile('main.js', 'utf-8', (err, data) => {
+          /* your code */
+      });
+    learner_created: false
+  - name: index.js
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/25766#comment
+status: Solved
+record: -1
+submission_language: javascript
